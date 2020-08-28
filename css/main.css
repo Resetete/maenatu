@@ -104,6 +104,10 @@ textarea {
   left: 0;
 }
 
+.example-video {
+  height: 100vh;
+}
+
 .hero-video {
   position: relative;
   top: 0;
@@ -117,6 +121,18 @@ textarea {
   left: 50vw;
 }
 
+.headers {
+  display: none;
+}
+
+.headers-shown {
+  position: absolute;
+  top: 70vh;
+  left: 5vw;
+  font-size: 2em;
+  font-weight: 100;
+  z-index: 1;
+}
 
 
 /* ==========================================================================
