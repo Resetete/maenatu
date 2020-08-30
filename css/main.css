@@ -93,6 +93,20 @@ textarea {
   width: 100%;
 }
 
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 45vw;
+    display: block;
+    width: 20vw;
+    text-align: center;
+}
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+
 .navbar {
   background-color:rgba(255,255,255,0.2) !important;
 }
@@ -113,7 +127,7 @@ textarea {
   position: relative;
   top: 0;
   left: 0;
-  width: 100vw;
+  height: 100vw;
   background-image: url("../img/baby-hand-poster.png");
   background-size: cover;
   background-position: center center;
@@ -174,9 +188,8 @@ textarea {
 
   .animation-wrapper {
     position: absolute;
-    top: 40vh;
-    left: 5vw;
-    height: 40vh;
+    top: 60vh;
+    height: 20vh;
     z-index: 5;
   }
 
@@ -316,18 +329,20 @@ svg.active .svg-elem-3 {
    Modify as content requires.
    ========================================================================== */
 
+   /** DESKTOP ****/
    @media screen and (min-width:768px){
        .navbar-brand-centered {
-           position: absolute;
-           left: 45vw;
-           display: block;
            width: 7vw;
-           text-align: center;
        }
-       .navbar>.container .navbar-brand-centered,
-       .navbar>.container-fluid .navbar-brand-centered {
-           margin-left: -80px;
+
+       .animation-wrapper {
+         position: absolute;
+         top: 40vh;
+         left: 5vw;
+         height: 40vh;
+         z-index: 5;
        }
+
    }
 
 
