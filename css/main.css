@@ -130,16 +130,16 @@ textarea {
 
 .example-image-background {
   height: 100vh;
-  background-image: url("../img/pexels-alena-koval-886521.jpg");
   background-position: right;
   background-size: cover;
 }
 
-.example-video-background {
-  height: 100vh;
-  background-clip: url("../videos/baby_background_black-white.mp4");
-  background-position: right;
-  background-size: cover;
+#image-1 {
+  background-image: url("../img/pexels-alena-koval-886521.jpg");
+}
+
+#image-2 {
+  background-image: url("../img/pexels-evie-shaffer-3825880.jpg");
 }
 
 
